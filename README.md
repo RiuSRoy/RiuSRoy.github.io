@@ -31,7 +31,7 @@ body{
 	background-size: contain;
   background-repeat: no-repeat;
   padding-top: 10%;
-  height: 120%;
+  height: 90%;
 }
 #portfolio{
 	background-image: url("https://ak2.picdn.net/shutterstock/videos/14941792/thumb/1.jpg?i10c=img.resize(height:160)");
@@ -104,7 +104,7 @@ body{
   text-align: center;
   font-size: 20px;
   font-family: Lobster, sans-serif; 
-  color: purple;
+  color: violet;
 }
 ul{
 	 list-style-type :square;
@@ -216,9 +216,9 @@ ul{
 	<img id="photo" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAVhAAAAJGZiMjRkZDg4LWFmNzEtNDZiMy1hZmVjLTExYzRlYzBmYmRkMA.jpg" alt="Riu">
 </div>
 <div class="col-xs-5">
-	<h4 class="text-center"><b>AISHWARIYA SINGHA ROY</b></h4><br/>
-	<h5  class="text-center" style="text-decoration: underline;"><i>Programmer</i></h5><br/>
-	<h6 id="page2">My friends call me Riu! I am a person who is very much ambitious regarding her future but at the same time, never compromises on the fun of life. I am mostly found doing competitive programming. Android Development and Web Development are the other two fields in which I am highly interested and I look forward to become a full time developer!
+	<h4 class="text-center" style="font-color:white;"><b>AISHWARIYA SINGHA ROY</b></h4><br/>
+	<h5  class="text-center" style="text-decoration: underline; font-color:white;"><i>Programmer</i></h5><br/>
+	<h6 id="page2" style="font-color:white;">My friends call me Riu! I am a person who is very much ambitious regarding her future but at the same time, never compromises on the fun of life. I am mostly found doing competitive programming. Android Development and Web Development are the other two fields in which I am highly interested and I look forward to become a full time developer!
 	A happy-go-lucky girl, I like funny company and boring people repel me. So, if you think you are someone to explore, we can surely arrange a meeting! :P </h6><br/>
 	<ul >
 		<li style="font-family: Courier New, Courier, monospace;"><b>Date Of Birth </b>: 20 NOV, 1996</li>
