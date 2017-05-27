@@ -285,7 +285,7 @@ ul{
 	<div class="col-xs-4">
 		<h5 class="part1"><b>CONTACT</b></h5><br/><br/>
 		<h6 class="body1"><b>Mobile : </b>8134036098, 8253949042</h6><br/>
-		<h6 class="body1"><b>Email Id : </b>iamash20@gmail.com></h6><br/>
+		<h6 class="body1"><b>Email Id : </b>iamash20@gmail.com</h6><br/>
 	</div>
 </div>
 <img src="https://static1.squarespace.com/static/55b523b7e4b08415a07a1687/t/58a312c0c534a53002f67c81/1487082182712/" alt="Reach Out to me!" id="callimg">
