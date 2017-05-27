@@ -31,7 +31,7 @@ body{
 	background-size: contain;
   background-repeat: no-repeat;
   padding-top: 10%;
-  height: 90%;
+  height: 110%;
 }
 #portfolio{
 	background-image: url("https://ak2.picdn.net/shutterstock/videos/14941792/thumb/1.jpg?i10c=img.resize(height:160)");
@@ -216,16 +216,16 @@ ul{
 	<img id="photo" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAVhAAAAJGZiMjRkZDg4LWFmNzEtNDZiMy1hZmVjLTExYzRlYzBmYmRkMA.jpg" alt="Riu">
 </div>
 <div class="col-xs-5">
-	<h4 class="text-center" style="font-color:white;"><b>AISHWARIYA SINGHA ROY</b></h4><br/>
-	<h5  class="text-center" style="text-decoration: underline; font-color:white;"><i>Programmer</i></h5><br/>
-	<h6 id="page2" style="font-color:white;">My friends call me Riu! I am a person who is very much ambitious regarding her future but at the same time, never compromises on the fun of life. I am mostly found doing competitive programming. Android Development and Web Development are the other two fields in which I am highly interested and I look forward to become a full time developer!
+	<h4 class="text-center" style="color:white;"><b>AISHWARIYA SINGHA ROY</b></h4><br/>
+	<h5  class="text-center" style="text-decoration: underline; color:white;"><i>Programmer</i></h5><br/>
+	<h6 id="page2" >My friends call me Riu! I am a person who is very much ambitious regarding her future but at the same time, never compromises on the fun of life. I am mostly found doing competitive programming. Android Development and Web Development are the other two fields in which I am highly interested and I look forward to become a full time developer!
 	A happy-go-lucky girl, I like funny company and boring people repel me. So, if you think you are someone to explore, we can surely arrange a meeting! :P </h6><br/>
 	<ul >
-		<li style="font-family: Courier New, Courier, monospace;"><b>Date Of Birth </b>: 20 NOV, 1996</li>
-		<li style="font-family: Courier New, Courier, monospace;"><b>Phone </b>: 8134036098</li>
-		<li style="font-family: Courier New, Courier, monospace;"><b>Email </b>: iamash20@gmail.com</li>
-		<li style="font-family: Courier New, Courier, monospace;"><b>Address </b>: GH1, National Institute Of Technology, Silchar, India</li>
-		<li style="font-family: Courier New, Courier, monospace;"><b>Website </b>: https://github.com/RiuSRoy</li>
+		<li style="font-family: Courier New, Courier, monospace; color:white;"><b>Date Of Birth </b>: 20 NOV, 1996</li>
+		<li style="font-family: Courier New, Courier, monospace; color:white;"><b>Phone </b>: 8134036098</li>
+		<li style="font-family: Courier New, Courier, monospace; color:white;"><b>Email </b>: iamash20@gmail.com</li>
+		<li style="font-family: Courier New, Courier, monospace; color:white;"><b>Address </b>: GH1, National Institute Of Technology, Silchar, India</li>
+		<li style="font-family: Courier New, Courier, monospace; color:white;"><b>Website </b>: https://github.com/RiuSRoy</li>
 	</ul>
 </div>
 
