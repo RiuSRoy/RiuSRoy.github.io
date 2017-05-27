@@ -229,7 +229,7 @@ ul{
 	</ul>
 </div>
 
-</div></br>
+</div><br/>
 </div>
 
 
