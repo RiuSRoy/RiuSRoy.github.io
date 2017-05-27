@@ -31,7 +31,7 @@ body{
 	background-size: contain;
   background-repeat: no-repeat;
   padding-top: 10%;
-  height: 200%;
+  height: 120%;
 }
 #portfolio{
 	background-image: url("https://ak2.picdn.net/shutterstock/videos/14941792/thumb/1.jpg?i10c=img.resize(height:160)");
@@ -154,7 +154,7 @@ ul{
 }
 #callimg{
 	width:100%;
-	height:500%;
+	height:100%;
 }
 .navbar a{
 	font-size: 20px;
