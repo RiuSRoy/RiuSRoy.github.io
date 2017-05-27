@@ -204,7 +204,7 @@ ul{
  <div id="home" class="container-fluid"><br/>
   <h1 class ="head">RiuSRoy</h1>
 <h2 align ="center" id="ash" >Hello People!</h2><br/>
-<h6 class="content">I’m Aishwariya Singha Roy ( Riu ). I am a Computer Science Undergrad from National Institute of Technology, Silchar. I am a novice with more than a year of programming experience.</h6>
+<h6 class="content">I’m Aishwariya Singha Roy ( Riu ). I am a Computer Science Undergrad from National Institute of Technology, Silchar. I am more into competitive coding with about a year of programming experience.</h6>
 </div><br/>
 
 
