@@ -28,10 +28,10 @@ body{
 }
 #about{
 	background-image: url("http://img.photobucket.com/albums/v367/SingleNProud15/background2.jpg");
-	background-size: cover;
+	background-size: contain;
   background-repeat: no-repeat;
   padding-top: 10%;
-  height: 400%;
+  height: 200%;
 }
 #portfolio{
 	background-image: url("https://ak2.picdn.net/shutterstock/videos/14941792/thumb/1.jpg?i10c=img.resize(height:160)");
