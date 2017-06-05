@@ -103,6 +103,11 @@ body{
     border-top-right-radius: 2em;
     box-shadow: 5px 5px 5px #888888;
 }
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
 #page2{
 	padding-right:10%;
   text-align: center;
