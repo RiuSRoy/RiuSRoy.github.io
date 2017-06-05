@@ -82,6 +82,15 @@ body{
 	font-style: normal;
 	font-size: 500%;
 	font-weight:bold;
+	animation-name: people;
+	animation-duration: 3s;
+	animation-delay: 0s;
+	animation-direction: ;
+	animation-fill-mode: forwards;
+}
+@keyframes people{
+	0% {transform: translateY(-300px);}
+	100% {transform: translateY(10px);}
 }
 .content{
 	text-align: center;
