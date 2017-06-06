@@ -72,8 +72,10 @@ body{
 	font-family: "Courier New", Courier, cursive, monospace;
 	font-size: 60px;
 	margin: 40px 40px 40px;
-	text-decoration : dashed underline; 
-	padding: 20px;
+	text-decoration : dashed underline;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	text-shadow: 2px 2px #FF0000;
 }
 
