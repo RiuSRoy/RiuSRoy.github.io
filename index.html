@@ -19,11 +19,339 @@
 <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="/home/riu/Desktop/WebD/screen.css"/>
-<link rel="stylesheet" type="text/css" href="/home/riu/Desktop/WebD/responsive.css" media="screen and (max-width:900px)" />
-	<script type="text/javascript" src="/home/riu/Downloads/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="/home/riu/Desktop/WebD/script.js"></script>
 
+	<script type="text/javascript" src="/home/riu/Downloads/jquery-3.2.1.min.js"></script>
+
+
+	<!--<script type="text/javascript" src="/home/riu/Desktop/WebD/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="/home/riu/Desktop/WebD/screen.css"/>
+	<link rel="stylesheet" type="text/css" href="/home/riu/Desktop/WebD/responsive.css" media="screen and (max-width:900px)" />-->
+
+<style type="text/css">
+	
+#hire{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+#AA {
+	position: absolute;
+    top: 0px;
+    width: 350px;
+    bottom: 0px;
+    left: -350px;
+    background:blue;
+    z-index: 9999;
+    box-shadow: 10px 5px 5px saddlebrown;
+    opacity:0.7;
+  	filter:alpha (opacity=70); 
+}
+#BB {
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url("https://github.com/RiuSRoy/RiuSRoy.github.io/blob/master/riu_images/hire.jpg?raw=true");
+    z-index: 30;
+    height: auto;
+}
+#ui-close{
+	top: 0;
+	right: 0;
+	padding: 1px 6px;
+	font-weight: bold;
+	font-size: 1.5vw;
+	color: white;
+	background-color: red;
+}
+#ui-close:hover{
+	cursor: pointer;
+	background-color: black;
+	color: white;
+}
+#ui-show{
+	margin-top: 70px;
+	box-shadow: 10px 10px 5px #888888;
+	margin-left: 50px;
+	background-color: blue;
+	border-radius: 50%;
+	color: white;
+	font-size: 3vw;
+	padding: 20px;
+}
+#ui-show:hover{
+	color: blue;
+	background-color: white;
+	transition-duration: 1s;
+}
+#my_form{
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	
+}
+#n,#e,#m{
+	background-color: pink;
+	font-weight: bold;
+	font-family: Leckerli One;
+	font-size: 1.5vw;
+}
+#my_btn{
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 30px;
+	background-color: darkorchid;
+	font-weight: bold;
+	color: white;
+}
+#my_btn:hover{
+	background-color: black;
+	transition-duration: 1s;
+}
+#date1,#date2{
+	font-family: Oleo Script;
+	margin-left: 40px;
+	margin-right: 60px;
+	padding: 20px;
+	font-size: 2vw;
+	border-width: 3px;
+	border :black;
+	background-color: #C0C0C0;
+}
+#date1{
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+    border-top-right-radius: 2em;
+}
+#date2{
+	border-bottom-left-radius: 2em;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.ques{
+	font-weight: bold;
+	font-size: 2.5vw;
+	font-family: Pacifico;
+}
+.ques-des{
+	color: #FF69B4;
+}
+.ques-des:hover{
+	color: #E55EA2;
+}
+.answer{
+	font-weight: bold;
+	font-family: Leckerli One;
+}
+#faq{
+	margin-top: 80px;
+	cursor: pointer;
+}
+body{
+	background-image: url("https://github.com/RiuSRoy/RiuSRoy.github.io/blob/master/riu_images/body.jpg?raw=true");
+	background-size: contain;
+	position: relative;
+	overflow-x: hidden;
+}
+#home{
+  background-image: url("https://github.com/RiuSRoy/RiuSRoy.github.io/blob/master/riu_images/home.jpg?raw=true");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+#about{
+	background-image: url("https://github.com/RiuSRoy/RiuSRoy.github.io/blob/master/riu_images/about.jpg?raw=true");
+	background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 1%;
+  height: 100%;
+}
+#portfolio{
+	background-image: url("https://github.com/RiuSRoy/RiuSRoy.github.io/blob/master/riu_images/portfolio.jpg?raw=trueb");
+	float: center;
+	background-size: 100% 100%;
+	width: 93.5%;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+#contact{
+	padding-top: 70px;
+	background-image: url("https://github.com/RiuSRoy/RiuSRoy.github.io/blob/master/riu_images/contact.gif?raw=true");
+	background-size: 100% 100%;
+}
+nav{
+	box-shadow: 5px 5px 5px #000000;
+	background: yellow;   
+  	height : 10%;
+  	width : 100%;
+   	opacity:0.3;
+  	filter:alpha (opacity=30); 
+}
+nav ul{
+	padding : 1.8% 1% 1% 11%;	
+}
+nav ul li{
+  display : inline;
+  font-weight : bold;
+  padding: 20px 50px;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  
+}
+nav ul li:hover{
+  color: yellow;
+  background-color: red;
+  transition: all 2s;
+}
+#head1{
+	font-weight: bold;
+	font-family: "Pacifico", Courier, cursive, monospace;
+	font-size: 6vw;
+	position: relative;
+	margin: 40px 40px 40px;
+	text-decoration : dashed underline; 
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size-adjust: 0.58;
+	padding-top: 0px;
+	text-shadow: 2px 2px magenta;	
+}
+#head2{
+	font-weight: bold;
+	font-family: "Oleo Script", Courier, cursive, monospace;
+	font-size: 6.5vw;
+	position: relative;
+	margin: 50px 40px 40px;
+	text-decoration : dashed underline; 
+	padding: 0px 20px 20px 20px;
+	text-shadow: 2px 2px #FF0000;
+	font-size-adjust: 0.58;
+	
+}
+#write{
+	position: relative;
+	top: 60px;
+}
+#ash{
+	font-family: Lobster;
+	font-size-adjust: 0.58;
+	font-style: normal;
+	font-size: 500%;
+	font-weight:bold;
+	animation-name: people;
+	animation-duration: 3s;
+	animation-delay: 0s;
+	animation-direction: ;
+	animation-fill-mode: forwards;
+}
+@keyframes people{
+	0% {transform: translateY(-300px);}
+	100% {transform: translateY(10px);}
+}
+.content{
+	text-align: center;
+	font-size:20px;
+	border: 2px solid;
+    padding: 10px;
+    font-family : cursive;
+    background: #dddddd;
+    border-bottom-left-radius: 2em;
+    border-top-right-radius: 2em;
+    box-shadow: 5px 5px 5px #888888;
+}
+#affix {
+	position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 999 !important;
+  }
+#page2{
+  text-align: center;
+  font-size: 20px;
+  font-size: 2vw;
+  font-family: Lobster, sans-serif; 
+  color: violet;
+}
+ul{
+	 list-style-type :square;
+}
+  
+#photo{
+	border: 15px solid black;
+	border-radius: 5px;
+	padding: 5%;
+	margin-left: 10%;
+	border-style: dotted solid; 
+}
+#sticky{
+	background-color: blue;
+	-webkit-transform: rotate(-17deg);
+    float: center;
+    opacity: 0.6;
+    filter: alpha (opacity=60);
+    width: 45%;
+    height: 40%;
+    border-top-right-radius: 2em;
+    font-family: Great Vibes;
+    color: yellow;
+    box-shadow: 5px 5px 5px 5px #000000;
+    font-size: 4vw;
+    margin-left: 40%;
+    margin-top: 25%;
+    font-size-adjust: 0.58;
+    padding: 5%;
+    background-size: 100% 100%;
+}
+#sites{
+	font-size: 300%;
+	font-weight: bold;
+	margin-top: 65%;
+	font-family: "Courier New",courier;
+	text-align: center;
+}
+#sites a{
+	text-shadow: 2px 2px #CCCC00;
+	color: white;
+}
+#callimg{
+	width:100%;
+	height:100%;
+}
+.navbar a{
+	font-size: 20px;
+
+}
+.part1{
+	color: white;
+	margin-left: 20%;
+	font-size: 20px;
+}
+.body1{
+	color: white;
+	margin-left: 20%;
+	font-size: 20px;
+}
+.connect ul{
+	padding-left: 8%;
+	padding-right: 29%;
+}
+.connect ul li{
+	padding:5px;
+	border-width: 5px;
+	border: solid red;
+}
+.connect a{
+	font-size: 20px;
+	font-family: "Courier New",courier,monospace;
+	color: purple;
+}
+</style>
+<body>
   <nav id="affix">
     <ul>
       <li>
@@ -55,7 +383,7 @@
 <div class="row">
 <div class="col-xs-7">
 	<h3 id="head2">#Keep Faith #Keep Coding!</h3><br />
-	<img id="photo" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAVhAAAAJGZiMjRkZDg4LWFmNzEtNDZiMy1hZmVjLTExYzRlYzBmYmRkMA.jpg" alt="Riu" />
+	<img id="photo" src="https://github.com/RiuSRoy/RiuSRoy.github.io/blob/master/riu_images/riu.png?raw=true" alt="Riu" height="50%" width="auto" />
 </div>
 <div class="col-xs-5" id="write">
 	<h4 class="text-center" style="color:white;"><b>AISHWARIYA SINGHA ROY</b></h4><br />
@@ -202,335 +530,11 @@
 		<h6 class="body1"><b>Email Id : </b>iamash20@gmail.com</h6><br />
 	</div>
 </div>
-<img src="https://static1.squarespace.com/static/55b523b7e4b08415a07a1687/t/58a312c0c534a53002f67c81/1487082182712/" alt="Reach Out to me!" id="callimg" />
+<img src="https://github.com/RiuSRoy/RiuSRoy.github.io/blob/master/riu_images/call.png?raw=true" alt="Reach Out to me!" id="callimg" />
 </div>
-</head>
-</html>
-<style>
-
-#hire{
-	position: relative;
-	width: 100%;
-	height: 100%;	
-}
-#AA {
-	position: absolute;
-    top: 0px;
-    width: 350px;
-    bottom: 0px;
-    left: -350px;
-    background:blue;
-    z-index: 9999;
-    box-shadow: 10px 5px 5px saddlebrown;
-    opacity:0.7;
-  	filter:alpha (opacity=70); 
-}
-#BB {
-	position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    background-image: url("http://wallpaper-gallery.net/images/flower-background-wallpaper/flower-background-wallpaper-10.jpg");
-    background-size: contain;
-    z-index: 30;
-}
-#ui-close{
-	top: 0;
-	right: 0;
-	padding: 1px 6px;
-	font-weight: bold;
-	font-size: 1.5vw;
-	color: white;
-	background-color: red;
-}
-#ui-close:hover{
-	cursor: pointer;
-	background-color: black;
-	color: white;
-}
-#ui-show{
-	margin-top: 70px;
-	box-shadow: 10px 10px 5px #888888;
-	margin-left: 50px;
-	background-color: blue;
-	border-radius: 50%;
-	color: white;
-	font-size: 3vw;
-	padding: 20px;
-}
-#ui-show:hover{
-	color: blue;
-	background-color: white;
-	transition-duration: 1s;
-}
-#my_form{
-	padding-top: 40px;
-	padding-left: 40px;
-	padding-bottom: 20px;
-	
-}
-#n,#e,#m{
-	background-color: pink;
-	font-weight: bold;
-	font-family: Leckerli One;
-	font-size: 1.5vw;
-}
-#my_btn{
-	padding: 10px;
-	margin-top: 20px;
-	margin-left: 30px;
-	background-color: darkorchid;
-	font-weight: bold;
-	color: white;
-}
-#my_btn:hover{
-	background-color: black;
-	transition-duration: 1s;
-}
-#date1,#date2{
-	font-family: Oleo Script;
-	margin-left: 40px;
-	margin-right: 60px;
-	padding: 20px;
-	font-size: 2vw;
-	border-width: 3px;
-	border :black;
-	background-color: #C0C0C0;
-}
-#date1{
-	position: relative;
-	margin-top: 50px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-    border-top-right-radius: 2em;
-}
-#date2{
-	border-bottom-left-radius: 2em;
-	padding-top: 0px;
-	margin-top: 0px;
-}
-.ques{
-	font-weight: bold;
-	font-size: 2.5vw;
-	font-family: Pacifico;
-}
-.ques-des{
-	color: #FF69B4;
-}
-.ques-des:hover{
-	color: #E55EA2;
-}
-.answer{
-	font-weight: bold;
-	font-family: Leckerli One;
-}
-#faq{
-	margin-top: 80px;
-	cursor: pointer;
-}
-body{
-	background-image: url("http://i1245.photobucket.com/albums/gg586/sensitive1217/love2/38007859.jpg");
-	background-size: contain;
-	position: relative;
-}
-#home{
-  background-image: url("http://whytoread.com/wp-content/uploads/2015/05/Books-That-Will-Make-You-Proud-And-Satisfied-To-Have-Read.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  height: 700px;
-}
-#about{
-	background-image: url("http://img.photobucket.com/albums/v367/SingleNProud15/background2.jpg");
-	background-size: contain;
-  background-repeat: no-repeat;
-  padding-top: 1%;
-  height: 110%;
-}
-#portfolio{
-	background-image: url("https://ak2.picdn.net/shutterstock/videos/14941792/thumb/1.jpg?i10c=img.resize(height:160)");
-	float: center;
-	background-size: 100% 100%;
-	width: 93.5%;
-	background-repeat: no-repeat;
-	height: 100%;
-}
-#contact{
-	padding-top: 70px;
-	background-image: url("http://i237.photobucket.com/albums/ff275/gagirl1964/Backgrounds/MySpace-Background.gif");
-	background-size: 100% 100%;
-}
-nav{
-	box-shadow: 5px 5px 5px #000000;
-	background: yellow;   
-  	height : 10%;
-  	width : 100%;
-   	opacity:0.3;
-  	filter:alpha (opacity=30); 
-}
-nav ul{
-	padding : 1.8% 1% 1% 11%;	
-}
-nav ul li{
-  display : inline;
-  font-weight : bold;
-  padding: 20px 50px;
-  text-align: center;
-  font-family: monospace;
-  font-weight: bold;
-  
-}
-nav ul li:hover{
-  color: yellow;
-  background-color: red;
-  transition: all 2s;
-}
-#head1{
-	font-weight: bold;
-	font-family: "Pacifico", Courier, cursive, monospace;
-	font-size: 6vw;
-	position: relative;
-	margin: 40px 40px 40px;
-	text-decoration : dashed underline; 
-	padding-bottom: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	font-size-adjust: 0.58;
-	padding-top: 0px;
-	text-shadow: 2px 2px magenta;	
-}
-#head2{
-	font-weight: bold;
-	font-family: "Oleo Script", Courier, cursive, monospace;
-	font-size: 6.5vw;
-	position: relative;
-	margin: 50px 40px 40px;
-	text-decoration : dashed underline; 
-	padding: 0px 20px 20px 20px;
-	text-shadow: 2px 2px #FF0000;
-	font-size-adjust: 0.58;
-	
-}
-#write{
-	position: relative;
-	top: 60px;
-}
-#ash{
-	font-family: Lobster;
-	font-size-adjust: 0.58;
-	font-style: normal;
-	font-size: 500%;
-	font-weight:bold;
-	animation-name: people;
-	animation-duration: 3s;
-	animation-delay: 0s;
-	animation-direction: ;
-	animation-fill-mode: forwards;
-}
-@keyframes people{
-	0% {transform: translateY(-300px);}
-	100% {transform: translateY(10px);}
-}
-.content{
-	text-align: center;
-	font-size:20px;
-	border: 2px solid;
-    padding: 10px;
-    font-family : cursive;
-    background: #dddddd;
-    border-bottom-left-radius: 2em;
-    border-top-right-radius: 2em;
-    box-shadow: 5px 5px 5px #888888;
-}
-#affix {
-	position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 999 !important;
-  }
-#page2{
-  text-align: center;
-  font-size: 20px;
-  font-size: 2vw;
-  font-family: Lobster, sans-serif; 
-  color: violet;
-}
-ul{
-	 list-style-type :square;
-}
-  
-#photo{
-	border: 15px solid black;
-	border-radius: 50%;
-	padding: 5%;
-	margin-left: 10%;
-	border-style: dotted solid; 
-}
-#sticky{
-	background-color: blue;
-	-webkit-transform: rotate(-17deg);
-    float: center;
-    opacity: 0.6;
-    filter: alpha (opacity=60);
-    width: 45%;
-    height: 40%;
-    border-top-right-radius: 2em;
-    font-family: Great Vibes;
-    color: yellow;
-    box-shadow: 5px 5px 5px 5px #000000;
-    font-size: 4vw;
-    margin-left: 40%;
-    margin-top: 25%;
-    font-size-adjust: 0.58;
-    padding: 5%;
-    background-size: 100% 100%;
-}
-#sites{
-	font-size: 300%;
-	font-weight: bold;
-	margin-top: 65%;
-	font-family: "Courier New",courier;
-	text-align: center;
-}
-#sites a{
-	text-shadow: 2px 2px #CCCC00;
-	color: white;
-}
-#callimg{
-	width:100%;
-	height:100%;
-}
-.navbar a{
-	font-size: 20px;
-
-}
-.part1{
-	color: white;
-	margin-left: 20%;
-	font-size: 20px;
-}
-.body1{
-	color: white;
-	margin-left: 20%;
-	font-size: 20px;
-}
-.connect ul{
-	padding-left: 8%;
-	padding-right: 29%;
-}
-.connect ul li{
-	padding:5px;
-	border-width: 5px;
-	border: solid red;
-}
-.connect a{
-	font-size: 20px;
-	font-family: "Courier New",courier,monospace;
-	color: purple;
-}
-</style>
-<script>
-$(document).ready(function(){
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
 	/*$("#AA").hide();
 	$('#ui-show').click(function() {
   		$('#ui-show').hide();
@@ -560,4 +564,7 @@ function slideOut() {
 	document.getElementById('ui-show').style.transition="opacity 0.1s";
 	document.getElementById('ui-show').style.opacity=1;
 }
+
 </script>
+</head>
+</html>
