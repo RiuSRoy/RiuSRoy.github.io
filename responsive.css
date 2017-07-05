@@ -2,11 +2,17 @@ body{
   background-image: url("https://github.com/RiuSRoy/RiuSRoy.github.io/blob/master/riu_images/body.jpg?raw=true");
   background-size: contain;
   position: relative;
-  overflow-x: hidden;
+  
 }
 #head1{
   margin-top: 0.2vh;
   text-align: right;
+}
+.part1{
+  font-size: 2vw;
+}
+.body1{
+  font-size: 3.5vw;
 }
 .content{
   font-size:3.5vw;
@@ -25,28 +31,16 @@ body{
   display: block;
   margin:0 auto;
 }
-nav{
-	box-shadow: 5px 5px 5px #000000;
-	background: yellow;  
-   	opacity:0.3;
-  	filter:alpha (opacity=30); 
-}
 nav ul li{
   display : block;
-  font-weight : bold;
-  padding: 0;
-  margin-left: 0;
+  padding: 0;  
   text-align: left;
-  font-family: monospace;
-  font-weight: bold;  
-}
-nav ul{
-
 }
 nav ul li:hover{
-  color: yellow;
-  background-color: red;
-  transition: all 2s;
+  margin-left: 0px;
+}
+#affix ul li a{ 
+  font-size: 15px;
 }
 #affix {
 	position: fixed;
@@ -55,12 +49,64 @@ nav ul li:hover{
       width: auto;
       z-index: 999 !important;
   }
+#affix ul{
+  padding: 18px ;
+  padding-top: 60px;
+}
+#affix ul li{
+  padding-bottom: 10vh;
+}
   .text-center{
   	color: blue !important;
   }
+#faq{
+  margin-top: 10px;
+}
+
  #write{
  	margin: 0px;
  }
 #about{
 	background-size: cover;
+}
+.ques,.body1{
+  font-size: 20px;
+}
+.one-third{
+  width: 48%;
+  height: 330px;
+}
+#sec2{
+  margin: 0;
+}
+#sec3{
+  clear: both;
+  float: none;
+  width: auto;
+  height: auto;
+  margin-top: 2vh;
+}
+@media screen and (max-width: 550px){
+  .one-third{
+    width: 90% !important;
+    float: none;
+    margin:0 !important;
+    height: auto !important;
+  }
+  .part1{
+    font-size: 4vw;
+  }
+  #sites a{
+    font-size: 20px;
+  }
+  #callimg{
+    display: none;
+    visibility: 
+  }
+}
+.container,.xrow{
+  margin-left: 100px;
+}
+#contact{
+  padding-top: 10px;
 }
