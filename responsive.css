@@ -1,0 +1,66 @@
+body{
+  background-image: url("https://github.com/RiuSRoy/RiuSRoy.github.io/blob/master/riu_images/body.jpg?raw=true");
+  background-size: contain;
+  position: relative;
+  overflow-x: hidden;
+}
+#head1{
+  margin-top: 0.2vh;
+  text-align: right;
+}
+.content{
+  font-size:3.5vw;
+}
+#addr{
+  visibility: hidden;
+}
+#page2{
+  font-size: 5vw;
+}
+#head2{
+  text-align: center;
+  font-size: 30px;
+}
+#photo{
+  display: block;
+  margin:0 auto;
+}
+nav{
+	box-shadow: 5px 5px 5px #000000;
+	background: yellow;  
+   	opacity:0.3;
+  	filter:alpha (opacity=30); 
+}
+nav ul li{
+  display : block;
+  font-weight : bold;
+  padding: 0;
+  margin-left: 0;
+  text-align: left;
+  font-family: monospace;
+  font-weight: bold;  
+}
+nav ul{
+
+}
+nav ul li:hover{
+  color: yellow;
+  background-color: red;
+  transition: all 2s;
+}
+#affix {
+	position: fixed;
+      margin-left: 0;
+      height: 100%;
+      width: auto;
+      z-index: 999 !important;
+  }
+  .text-center{
+  	color: blue !important;
+  }
+ #write{
+ 	margin: 0px;
+ }
+#about{
+	background-size: cover;
+}
