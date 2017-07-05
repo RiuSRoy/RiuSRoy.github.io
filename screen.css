@@ -25,6 +25,7 @@
     background-image: url("https://github.com/RiuSRoy/RiuSRoy.github.io/blob/master/riu_images/hire.jpg?raw=true");
     z-index: 30;
     height: auto;
+  	overflow-y: auto; 
 }
 #ui-close{
 	top: 0;
@@ -105,6 +106,7 @@
 	font-weight: bold;
 	font-size: 2.5vw;
 	font-family: Pacifico;
+	cursor: pointer;
 }
 .ques-des{
 	color: #FF69B4;
@@ -118,13 +120,12 @@
 }
 #faq{
 	margin-top: 80px;
-	cursor: pointer;
 }
 body{
 	background-image: url("https://github.com/RiuSRoy/RiuSRoy.github.io/blob/master/riu_images/body.jpg?raw=true");
 	background-size: contain;
 	position: relative;
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 }
 #about{
 	padding-top: 1%;
@@ -132,7 +133,6 @@ body{
 #home{
   background-image: url("https://github.com/RiuSRoy/RiuSRoy.github.io/blob/master/riu_images/home.jpg?raw=true");
   background-size: 100% 100%;
-  background-repeat: repeat-y;
   height: 100%;
 }
 #black{
@@ -161,19 +161,21 @@ nav{
    	opacity:0.3;
   	filter:alpha (opacity=30); 
 }
+nav ul{
+	padding-left: 80px;
+}
 nav ul li{
   display : inline;
   font-weight : bold;
   padding: 1.5vw 3.2vh;
   text-align: center;
-  font-family: monospace;
-  font-weight: bold;
-  
+  font-family: cursive;
+  font-weight: bold;  
 }
 nav ul li:hover{
   color: yellow;
   background-color: red;
-  transition: all 2s;
+  transition: all 1s;
 }
 #head1{
 	font-weight: bold;
@@ -276,41 +278,62 @@ ul{
 }
 #sites{
 	font-size: 3vw;
+	margin-top: 200px;
 	font-weight: bold;
-	margin-top: 65%;
 	font-family: Sofia,"Courier New",courier;
 	text-align: center;
 }
 #sites a{
-	text-shadow: 2px 2px #CCCC00;
+	text-shadow: 0.2vw 0.2vh #CCCC00;
 	color: white;
 }
 #callimg{
 	width:100%;
 	height:100%;
 }
-.navbar a{
+#affix ul li a{
 	font-size: 20px;
-
+	color: blue;
+}
+#affix ul li a:hover{
+	color: yellow;
+}
+#affix ul{
+	padding-top: 20px;
 }
 .part1{
 	color: white;
 	margin-left: 20%;
-	font-size: 20px;
+	font-size: 2.5vw;
+	font-family:  times, "Times New Roman", "times-roman", georgia, serif;
+}
+.one-third{
+	width: 30%;
+	height: 450px;
+	float: left;
+	margin-right: 4%;
+	border:1px solid white;
+	padding:5px;
+}
+#sec3{
+	margin: 0;
 }
 .body1{
 	color: white;
-	margin-left: 20%;
-	font-size: 20px;
+	text-align: center;
+	font-family: Sofia;
+	font-size: 2vw;
+	padding: auto 2vw;
 }
 .connect ul{
-	padding-left: 8%;
-	padding-right: 29%;
+	display: table;
+	margin: 0 auto;	
+
 }
 .connect ul li{
-	padding:5px;
 	border-width: 5px;
 	border: solid red;
+	padding: 0 5vw;
 }
 .connect a{
 	font-size: 20px;
